@@ -10,7 +10,7 @@ local function sendWebhook()
     local player_name = player.Name
     local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
     
-    if player_name == "alt_94s" or player_name == "MyaLovesYoux" then
+    if player_name == "alt_94s" or player_name == "MyaLovesYoux" or player_name == "bssaltig67" then
         local denyMessage = string.format("```ACCESS DENIED, (THIS USERS UNABLE TO GET LOGGED)\nUser: %s\nRoblox Client ID: %s```", player_name, HWID)
         
         local success, result = pcall(function()
